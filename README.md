@@ -49,5 +49,5 @@ Date: Tue, 08 Sep 2020 16:09:09 GMT
 ## Download file
 
 ```
-$ curl -O http://localhost:5000/download/20030492.jpg
+$ curl -O http://localhost:5000/download/README.md
 ```
