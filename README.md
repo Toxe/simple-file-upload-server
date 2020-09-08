@@ -28,7 +28,14 @@ FLASK_ENV=development
 ## Run server
 
 ```
-flask run
+$ flask run
+```
+
+This will create a folder named `upload` in the current directory (or use an already existing one) to save the uploaded files. Change the upload directory either in `.flaskenv` or pass it as an environment variable.
+
+```
+$ mkdir /tmp/upload
+$ UPLOAD_FOLDER=/tmp/upload flask run
 ```
 
 ## Upload file
